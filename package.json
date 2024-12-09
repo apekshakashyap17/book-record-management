@@ -1,0 +1,26 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "book record management system ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apekshakashyap17/book-record-management.git"
+  },
+  "author": "Apeksha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apekshakashyap17/book-record-management/issues"
+  },
+  "homepage": "https://github.com/apekshakashyap17/book-record-management#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
