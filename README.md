@@ -19,3 +19,7 @@ app.get("/",(req,res) => {
     };
 } );
 
+function protoype 
+app.get("", (req,res) => {
+
+});
