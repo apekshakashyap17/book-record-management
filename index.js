@@ -18,13 +18,12 @@ app.use(express.json());
     description:get all users 
     Access : Public
     Parameters: none */
-
-// app.get("/users", (req,res) => {
-//     res.status(200).json({
-//         success: true,
-//         data: users,
-//     })
-//     });
+app.get("/users", (req,res) => {
+    res.status(200).json({
+        success: true,
+        data: users,
+    })
+    });
 
 /* implementing GET method, where the route is / , and hte two parameters passed are req,res*/
 app.get("/",(req,res) => {
